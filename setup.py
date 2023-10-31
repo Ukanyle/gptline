@@ -1,11 +1,11 @@
 from setuptools import setup
-
+def readme():
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="gptline",
-    version="1.0.7",
+    name='funniest',
+    version='0.1',
     packages=["src"],
     install_requires=requirements,
     entry_points={
